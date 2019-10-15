@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+h1{
+background-color:white;
+}
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.button {
+  background-color:#33ffbb;
+  border: none;
+  color:white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+ul#menu li{
+float:left;
+display:inline
+}
+
+.button:hover
+{
+color:rgb(123,252,0);
+background-color:white;
+}
+ #image {
+    width: 120px;
+ }
+</style>
+</head>
+<body>
+
+<div class="container-fluid" >
+<h1>Quick Join(Optional)</h1>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+  <a class="navbar-brand" href="#"><img id="image" src="C:\Users\USER\Desktop\reaction dental.png" alt="logo" ></a>
+ 
+  
+</nav>
+<div class="container-fluid" style="padding-left:135px;height:600px;padding-top:30px;background-color: #CCCAB1;">
+<div class="card  col-lg-11" style="padding-left:100px;padding-right:100px;background-color:rgb(236,240,241); height:520px;" >
+<div class="row" style="padding-top:20px; padding-left:5px;">
+<div class="col-lg-5" style="background-color:white;padding-top:20px;">
+<h3>Lets get started</h3>
+<caption>Use your Email Address or Facebook account</caption>
+<div class="form-group" style="padding-top:20px;">
+<a href="#" class="fb btn">
+ <i class="fa fa-facebook fa-fw"></i>Login with Facebook
+</a>
+
+</div>
+<div class="row">
+ <hr style="width:155px">
+ or
+ <hr style="width:180px">
+</div>
+<div class="form-group">
+<label >Name</label>
+<br>
+<input type="Name" placeholder="JohnDoe" class="form-control">
+</div>
+<div class="form-group">
+<label >Email</label>
+<br>
+<input type="Email" class="form-control" placeholder="JohnDoe@gmail.com">
+</div>
+<div class="form-group">
+
+<button class="button">CONTINUE &rarr; </button>
+<p>Already Having Account?<a href="#">Login</a></p>
+</div>
+</div>
+
+<div class="offset-lg-1 col-lg-6" style="background-color:white;">
+<h3 style="padding-top:30px;">Setup your password</h3>
+<p>Choose a password to sign into Gleam</p>
+
+<div class="form-group">
+<label >Password</label>
+<br>
+<input type="password" class="form-control" placeholder="Choose your password">
+
+<hr style="color:black ">
+<p>Password strenth:<strong>weak</strong></p>
+<br>
+<p>A strong password should contain:</p>
+<div class="form-group">
+<ul id="menu">
+<li>&#9679; 8+ Charecters</li>
+<li>&#9679; Numbers</li>
+<li>&#9679; Uppercase Letters</li>
+<li>&#9679; Lowercase Letters</li>
+<li>&#9679; Special Characters</li>
+</ul>
+</div>
+
+<div class="form-group">
+
+<button class="button">CONTINUE &rarr; </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>  
+
+</body>
+</html>
